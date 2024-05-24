@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  height: 97vh;
+}
+
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background-color: rgb(47, 0, 255);
+  text-align: center;
+}
+
+.sidebar h2{
+   color: orangered;
+   font-size: xx-large;
+}
+
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  
+}
+
+.sidebar li:hover {
+  background: #ddd;
+  color: black;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: rgb(31, 246, 3);
+  text-align: center;
+  padding: 250px;
+}
+
+
+.user-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
